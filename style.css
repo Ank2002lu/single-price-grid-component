@@ -105,20 +105,20 @@ p{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* Moblie Screen */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
     body{
         margin: 3rem 1rem;
     }
     .container{
         display: inline;
-        width: 90%;
+        width: 93%;
     }
     .subscription{
-        width: 90%;
+        width: 93%;
         padding: 1rem;
     }
     .whyus{
-        width: 90%;
+        width: 93%;
         padding: 1rem;
     }
 }
