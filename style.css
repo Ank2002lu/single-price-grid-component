@@ -1,0 +1,124 @@
+body{
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color:hsl(218, 22%, 67%);
+}
+
+h1{
+    font-family:'Karla';
+    font-weight: 700;
+}
+
+h2{
+    font-family:'Karla';
+    font-weight: 700;
+}
+
+p{
+    font-family:'Karla';
+    font-weight: 400;
+}
+
+.card{
+    justify-content: center;
+    height: 550px;
+    width: 800px;
+}
+
+.intro{
+    padding: 20px;
+    border-radius: 5% 5% 0% 0%; 
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    overflow: auto;
+    border-radius: 0% 0% 5% 5%; 
+}
+
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 20px 20px 0px 20px;
+}
+
+.whyus{
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.7;
+    width: 50%;
+    padding: 20px;
+}
+
+.headline{
+    color: hsl(179, 62%, 43%);
+}
+
+.tagline{
+    color: hsl(71, 73%, 54%);
+}
+
+.intro-p{
+    color: hsl(218, 22%, 67%);
+}
+
+.dollar{
+    font-family:'Karla';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* button */
+.btn {
+    border-radius: 16px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: hsl(71, 73%, 54%);
+    padding: 10px 80px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.btn:hover {
+    background: hsl(71, 67%, 81%);
+    text-decoration: none;
+}
+/* footer */
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Moblie Screen */
+@media only screen and (max-width: 375px) {
+    body{
+        margin: 3rem 1rem;
+    }
+    .container{
+        display: inline;
+        width: 90%;
+    }
+    .subscription{
+        width: 90%;
+        padding: 1rem;
+    }
+    .whyus{
+        width: 90%;
+        padding: 1rem;
+    }
+}
