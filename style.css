@@ -50,7 +50,7 @@ p{
 
 .whyus{
     background-color: hsl(179, 62%, 43%);
-    opacity: 0.7;
+    opacity: 0.6;
     width: 50%;
     padding: 20px;
 }
@@ -80,7 +80,7 @@ p{
     color: #ffffff;
     font-size: 20px;
     background: hsl(71, 73%, 54%);
-    padding: 10px 80px;
+    padding: 8% 29%;
     text-decoration: none;
     display: inline-block;
     border: none;
@@ -108,7 +108,7 @@ p{
 @media only screen and (max-width: 768px) {
     body{
         margin: 3rem 1rem;
-        padding: 1rem;
+        padding: 2rem;
     }
     .container{
         display: inline;
